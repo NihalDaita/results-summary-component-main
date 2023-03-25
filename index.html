@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&family=Hanken+Grotesk:wght@500;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="main-result">
+      <h4 class="main-result-item">Your Result</h4>
+      <div class="score-circle main-result-item">
+        <p class="current-score">76</p>
+        <p class="total-score">of 100</p>
+      </div>
+      <h3 class="main-result-item">Great</h3>
+      <p class="main-result-item result-message">You scored higher than 65% of the people who have taken these tests.</p>
+
+    </div>
+    <div class="summary">
+      <h4>Summary</h4>
+
+      <div class="reaction sub-score">
+        <div class="sub-text-left">
+          <img src="assets/images/icon-reaction.svg" alt=""></img>
+          <p class="sub-heading">Reaction</p>
+        </div>
+        <div class="sub-text-right">
+          <p class="sub-dark">80</p>
+          <p class="sub-light"> / 100</p>
+        </div>
+      </div>
+
+      <div class="memory sub-score">
+        <div class="sub-text-left">
+          <img src="assets/images/icon-memory.svg" alt="">
+          <p class="sub-heading">Memory</p>
+        </div>
+        <div class="sub-text-right">
+          <p class="sub-dark">92</p>
+          <p class="sub-light"> / 100</p>
+        </div>
+      </div>
+
+      <div class="verbal sub-score">
+        <div class="sub-text-left">
+          <img src="assets/images/icon-verbal.svg" alt="">
+          <p class="sub-heading">Verbal</p>
+        </div>
+        <div class="sub-text-right">
+          <p class="sub-dark">61</p>
+          <p class="sub-light"> / 100</p>
+        </div>
+      </div>
+      <div class="visual sub-score">
+        <div class="sub-text-left">
+          <img src="assets/images/icon-visual.svg" alt="">
+          <p class="sub-heading">Visual</p>
+        </div>
+        <div class="sub-text-right">
+          <p class="sub-dark">72</p>
+          <p class="sub-light"> / 100</p>
+        </div>
+      </div>
+
+      <button class="continue-button" type="submit">Continue</button>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
